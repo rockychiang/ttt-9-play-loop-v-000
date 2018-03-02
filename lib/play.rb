@@ -37,7 +37,7 @@ end
 
 def play(board)
   turns = 1
-  until turns == 9
+  until turns == 10
     turns += 1
     turn(board)
   end
